@@ -1,6 +1,6 @@
 module "vpc" {
 
-  source = "git::https://github.com/pakaashok/terraform-modules.git//vpc"
+  source = "git::https://github.com/pakaashok/terraform-modules.git//vpc?ref=v1.1.0"
 
   vpc_name       = "demo-vpc"
   vpc_cidr       = "10.0.0.0/16"
